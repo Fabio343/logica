@@ -11,10 +11,10 @@ $nota = 5.0;
 // comparação  <=>
 
 var_dump(2 <=> 1 );
-var_dump(1 <=> 1 );
-var_dump(1 <=> 2 );
-$a= (true && false);
-$b= (true and false);
+var_dump(1 <=> 1 ). PHP_EOL;
+var_dump(1 <=> 2 ). PHP_EOL;
+$a= (true && false). PHP_EOL;
+$b= (true and false). PHP_EOL;
 
 var_dump($a);
 var_dump($b);
@@ -32,8 +32,17 @@ if ($nota >= 5.0) {
 }
 
 // laços for // aspas duplas imprime valor as simples apenas o texto literal
-for($i=0 ; $i<11; $i++){
-     echo ($i+1);
 
+//exibir o nome 100 vezes
+for($i=0 ; $i<100; $i++){
+  echo "Fabio Carvalho de Souza";
+  echo "\n";
+}
+
+// numeros de 1 a 100
+
+for($i=0 ; $i<100; $i++){
+  echo ($i+1);
+  echo "\n";
 }
 ?>
