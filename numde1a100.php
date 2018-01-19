@@ -1,8 +1,10 @@
 <?php
-//exibir o nome 100 vezes
+// numeros de 1 a 100
+
 for($i=0 ; $i<100; $i++){
-  echo "Fabio Carvalho de Souza <br>";
+  echo ($i+1);
   echo "\n";
 }
   echo "\n";
+
 ?>

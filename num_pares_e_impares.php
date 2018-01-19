@@ -1,8 +1,10 @@
 <?php
-//exibir o nome 100 vezes
+// pare com ** e impares com *
 for($i=0 ; $i<100; $i++){
-  echo "Fabio Carvalho de Souza <br>";
-  echo "\n";
+  if ($i % 2 === 0) {
+    echo "** <br>";
+  }else {
+    echo "* <br>";
+  }
 }
-  echo "\n";
 ?>
