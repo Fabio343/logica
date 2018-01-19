@@ -38,11 +38,21 @@ for($i=0 ; $i<100; $i++){
   echo "Fabio Carvalho de Souza";
   echo "\n";
 }
-
+  echo "\n";
 // numeros de 1 a 100
 
 for($i=0 ; $i<100; $i++){
   echo ($i+1);
   echo "\n";
 }
+  echo "\n";
+// percorrer os numeros de 1  a 100 colocando ** para os pares e * ao impares
+for($i=0 ; $i<100; $i++){
+  if ($i % 2 === 0) {
+    echo "** ";
+  }else {
+    echo "* ";
+  }
+}
+
 ?>
