@@ -35,7 +35,7 @@ if ($nota >= 5.0) {
 
 //exibir o nome 100 vezes
 for($i=0 ; $i<100; $i++){
-  echo "Fabio Carvalho de Souza";
+  echo "Fabio Carvalho de Souza <br>";
   echo "\n";
 }
   echo "\n";
@@ -49,10 +49,25 @@ for($i=0 ; $i<100; $i++){
 // percorrer os numeros de 1  a 100 colocando ** para os pares e * ao impares
 for($i=0 ; $i<100; $i++){
   if ($i % 2 === 0) {
-    echo "** ";
+    echo "** <br>";
   }else {
-    echo "* ";
+    echo "* <br>";
   }
 }
+
+// programa para multiplos de 4 exibindo palavra PIN
+for($i=0 ; $i<100; $i++){
+  if ($i  %  4 === 0) {
+    echo "PIN ";
+  }else {
+    echo ($i+1);
+  }
+}
+
+//triangulo de *
+for($i=0 ; $i<5; $i++){
+
+}
+
 
 ?>
